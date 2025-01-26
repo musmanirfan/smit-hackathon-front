@@ -68,7 +68,7 @@ export default function Login() {
                         id="show-password"
                         required
                         className="h-4 w-4 text-green-600 border-gray-300 rounded focus:ring-green-500"
-                        onClick={() => setShowPass(showPass)}
+                        onClick={() => setShowPass(!showPass)}
                     />
                     <label
                         htmlFor="show-password"
